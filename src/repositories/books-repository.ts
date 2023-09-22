@@ -1,6 +1,5 @@
 import { Book, CreateBook } from "../protocols/book";
 import { CreateReview } from "../protocols/review";
-import connection from "../database";
 import prisma from "../database";
 
 export async function getBooks() {
